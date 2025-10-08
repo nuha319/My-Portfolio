@@ -7,7 +7,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
   
-  // Simple project click alert (can be replaced with modal later)
+  //click alert
   document.querySelectorAll(".project-card").forEach(card => {
     card.addEventListener("click", () => {
       alert(`You clicked on: ${card.textContent}`);
